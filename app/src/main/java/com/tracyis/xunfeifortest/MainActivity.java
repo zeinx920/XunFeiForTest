@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // 将“12345678”替换成您申请的 APPID，申请地址： http://www.xfyun.cn
         // 请勿在“ =”与 appid 之间添加任务空字符或者转义符
-        SpeechUtility.createUtility(MainActivity.this, SpeechConstant.APPID +"=56f22e12");
+        SpeechUtility.createUtility(MainActivity.this, SpeechConstant.APPID +"=58d60eb3");
         mGson = new Gson();
     }
 
